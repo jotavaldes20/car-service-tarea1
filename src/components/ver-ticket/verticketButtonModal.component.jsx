@@ -7,8 +7,7 @@ import Dialog from '@material-ui/core/Dialog';
 import CerrarTicket from './../cerrar-ticket/CerrarTicketButtonModal.component'
 
 const VerTicket =  ({ id, patente, fecha_ingreso, num_ticket,abierto  }) => {
-    const [open, setOpen] = React.useState(false);
-
+    const [open, setOpen] = React.useState(false); 
     const handleOpen = () => {
         setOpen(!open);
     };

@@ -25,11 +25,11 @@ const HomePage = () => {
   return (
     <div className={classes.content}>
         <div className={classes.posicion} >
-            <Grid container spacing={3} className={classes.grid}>
-                <Grid item sm={3} xs={5}>
+            <Grid container className={classes.grid}>
+                <Grid item={true} xs={5} sm={6}>
                     <h2>Bienvenido a CarService</h2>
                 </Grid>
-                <Grid item sm={9} xs ={7}>
+                <Grid item={true} xs={7} sm={6}>
                     <img alt="carservice" src={carServiceImg} width="500" maxWidth="200" />
                 </Grid>
             </Grid>

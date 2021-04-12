@@ -18,8 +18,8 @@ class App extends React.Component {
   render() {
     return (
       <div style={{ flexGrow: 1 }}>
-        <Grid container spacing={0}>
-          <Grid sm={12} style={{ paddingBottom: 200 }}>
+        <Grid container >
+          <Grid item xs={12} sm={12} md={12} style={{ paddingBottom: 200 }}>
             <CssBaseline />
             <Header currentUser={this.state.currentUser} />
             <Switch>
